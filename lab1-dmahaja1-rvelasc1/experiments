@@ -1,0 +1,29 @@
+                             H E U R I S T I C S
+             Moves        Zero    Blocking   Better
+Puzzle       to Goal    expanded  expanded  expanded
+traffic00    
+traffic02    
+traffic04    
+traffic06    
+traffic08    
+traffic10    
+ 
+                             H E U R I S T I C S
+             Moves     Displaced   Manhattan  Bonus
+Puzzle       to Goal    expanded   expanded   expanded
+fifteen00    
+fifteen01    
+fifteen02    
+fifteen03    
+fifteen04    
+
+
+Complete the tables given above.
+
+
+How does your better heuristic improve on blocking (while maintaining
+admissibility)?
+
+
+If you implemented the bonus heuristic, how does it improve on
+Manhattan (while maintaining admissibility)?
