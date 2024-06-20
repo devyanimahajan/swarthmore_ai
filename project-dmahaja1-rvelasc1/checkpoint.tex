@@ -1,0 +1,62 @@
+\documentclass[11pt]{article}
+\usepackage{fullpage}
+\usepackage{graphicx}
+
+\title{CS63 Spring 2022\\Final Project Checkpoint}
+\author{Devyani Mahajan & Cisco Velasco}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section{Project Goal}
+
+In this project, we aim to train a convolutional neural network to recognise and
+translate the ASL alphabet.
+
+\section{AI Methods Used}
+
+Similar to Lab 6, we will be using a convolutional neural network. Here, we will
+be utilising Keras and AITK to build and train our network, as well as evaluate
+it based on the produced feature maps.
+
+\section{Staged Development Plan}
+
+Sub-goals:
+\begin{enumerate}
+  \item prepare data: we are using a dataset from Kaggle, and are converting the visual
+data to a csv file in order to upload it to our jupyter notebook and analyse the
+information in one-hot form
+  \item run the neural network succesfully: we want to make sure our data is in optimal
+form and we can run our convolutional neural network with no errors to produce
+appropriate and helpful feature maps and visualisations of performance
+  \item optimise our neural network: we want to select the optimal layer configurations
+to achieve the highest possible accuracy for our neural network
+\end{enumerate}
+
+Stretch goals:
+\begin{itemize}
+  \item motion capture: we hope to use our neural network to create a live motion capture
+system to translate the ASL alphabet in real time
+  \item differentiate between I, J and Z: the ASL signs for J and Z use movement, which
+makes them difficult to represent statically. In particular, the sign for J is
+statically similar to the sign for I. we hope to find a way to methodologically
+differentiate between the two signs with some degree of accuracy
+\end{itemize}
+
+
+\section{Measure of Success}
+
+We will measure success for our neural network through the value accuracy of
+our network. We aim to achieve an accuracy of above 80% (accounting for the
+difficulties that arise from the letters J and Z). The higher our accuracy, the
+greater our success.
+
+\section{Plans for Analyzing Results}
+
+As mentioned above, we can analyse and interpret our results by our val accuracy
+measures. In addition to this, we can analyse our feature maps in order to determine
+sources of potential error and points of success.
+
+\end{document}
