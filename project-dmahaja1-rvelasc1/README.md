@@ -1,1 +1,2 @@
-Give detailed instructions for how to run your code here. Be sure to indicate where all of your data sets are located on the CS system.
+We aim to train a convolutional neural network to recognise the ASL alphabet. We would then extend this project by creating a live motion capture system that translates the ASL alphabet in real time.
+
